@@ -292,7 +292,7 @@ public class S0611Controller {
 //			model.addAttribute("msg", "회원가입되었습니다!");
 //			model.addAttribute("url", "/0611/test15");
 //			model.addAttribute("vo", vo);
-			return "redirect:/message/memberInputOk";
+			return "redirect:/message/memberInputOk?mid="+vo.getMid();
 		}
 		else {
 //			model.addAttribute("msg", "회원가입 실패!!!");
